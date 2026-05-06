@@ -803,8 +803,6 @@ function calcDilution() {
   document.getElementById('d-rSub').textContent = `≈ ${fmt(Qdil_m3,3)} m³/h · ${fmt(Qdil_m3*rho,0)} kg/h`;
   document.getElementById('d-rOut').innerHTML  = fmt(fromLpm(Qout)) + `<span class="r-unit">${uLabel}</span>`;
   document.getElementById('d-rRatio').textContent = `1 : ${fmt(ratio,3)}`;
-  document.getElementById('d-rUnit').textContent  = uLabel;
-  document.getElementById('d-rOutUnit').textContent = uLabel;
 
   document.getElementById('d-detail').innerHTML = [
     ['Inlet flow (Q_in)', `${fmt(fromLpm(Qin))} ${uLabel}`],
