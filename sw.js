@@ -1,4 +1,4 @@
-const CACHE = 'pp-calc-v1';
+const CACHE = 'pp-calc-v2';
 const FILES = [
   './index.html',
   './manifest.json',
